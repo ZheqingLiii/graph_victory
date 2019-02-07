@@ -1,0 +1,22 @@
+import csv
+
+with open('couriers.csv', 'wb') as csvfile:
+	filewriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+	filewriter.writerow(['Vince', '100'])
+	filewriter.writerow(['Neal', '95'])
+	filewriter.writerow(['Mike', '85'])
+	filewriter.writerow(['Nikhil', '80'])
+	filewriter.writerow(['Nick', '75'])
+	filewriter.writerow(['Chester', '60'])
+	filewriter.writerow(['Prabhu', '60'])
+	filewriter.writerow(['Soren', '60'])
+	filewriter.writerow(['Chris', '55'])
+	filewriter.writerow(['Joy', '55'])
+	filewriter.writerow(['Daniel', '55'])
+	filewriter.writerow(['Fabi', '50'])
+	filewriter.writerow(['Rob', '50'])
+	filewriter.writerow(['Matt', '40'])
+	filewriter.writerow(['Andrew', '40'])
+	filewriter.writerow(['Kevin', '37'])
+	filewriter.writerow(['Amit', '35'])
+	filewriter.writerow(['Amruta', '30'])
